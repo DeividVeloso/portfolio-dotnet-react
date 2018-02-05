@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{799F63F2-5473-4DB1-9260-51E78D59A82A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application Service", "2 - Application Service", "{8DE99FC5-23F2-43BD-B1EB-3B92915F36B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{7D164E39-AF2D-4869-9137-2C6EE9B4903A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{B3A6676B-8F21-4A9E-BA07-BA57B8C52BB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{88B78422-C205-413B-9369-BA5FB88F057A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veloso.Deivid.Domain", "src\Veloso.Deivid.Domain\Veloso.Deivid.Domain.csproj", "{3F1F7B49-E0DA-4971-8AFE-FA0553659ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veloso.Deivid.Domain.Tests", "test\Veloso.Deivid.Domain.Tests\Veloso.Deivid.Domain.Tests.csproj", "{2E527422-A27D-4E03-8C52-79CBC0F89464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veloso.Deivid.Domain.SharedKernel", "src\Veloso.Deivid.Domain.SharedKernel\Veloso.Deivid.Domain.SharedKernel.csproj", "{4D399951-F71B-4842-A677-209614AEF0F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veloso.Deivid.Infra", "src\Veloso.Deivid.Infra\Veloso.Deivid.Infra.csproj", "{54B359FD-A3D4-4D80-80D4-29702EA83CB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veloso.Deivid.CrossCutting", "src\Veloso.Deivid.CrossCutting\Veloso.Deivid.CrossCutting.csproj", "{3A5E6880-A235-415F-90FF-272F2C25A043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veloso.Deivid.ApplicationService", "src\Veloso.Deivid.ApplicationService\Veloso.Deivid.ApplicationService.csproj", "{F6672793-91F6-497C-9F7E-ED273DC5FA68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veloso.Deivid.API", "src\Veloso.Deivid.API\Veloso.Deivid.API.csproj", "{50F9ACAA-6275-4503-85EE-BF046B17BAE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F1F7B49-E0DA-4971-8AFE-FA0553659ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F1F7B49-E0DA-4971-8AFE-FA0553659ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F1F7B49-E0DA-4971-8AFE-FA0553659ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F1F7B49-E0DA-4971-8AFE-FA0553659ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E527422-A27D-4E03-8C52-79CBC0F89464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E527422-A27D-4E03-8C52-79CBC0F89464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E527422-A27D-4E03-8C52-79CBC0F89464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E527422-A27D-4E03-8C52-79CBC0F89464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D399951-F71B-4842-A677-209614AEF0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D399951-F71B-4842-A677-209614AEF0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D399951-F71B-4842-A677-209614AEF0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D399951-F71B-4842-A677-209614AEF0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B359FD-A3D4-4D80-80D4-29702EA83CB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B359FD-A3D4-4D80-80D4-29702EA83CB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B359FD-A3D4-4D80-80D4-29702EA83CB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B359FD-A3D4-4D80-80D4-29702EA83CB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5E6880-A235-415F-90FF-272F2C25A043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5E6880-A235-415F-90FF-272F2C25A043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5E6880-A235-415F-90FF-272F2C25A043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5E6880-A235-415F-90FF-272F2C25A043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6672793-91F6-497C-9F7E-ED273DC5FA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6672793-91F6-497C-9F7E-ED273DC5FA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6672793-91F6-497C-9F7E-ED273DC5FA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6672793-91F6-497C-9F7E-ED273DC5FA68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F9ACAA-6275-4503-85EE-BF046B17BAE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F9ACAA-6275-4503-85EE-BF046B17BAE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F9ACAA-6275-4503-85EE-BF046B17BAE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F9ACAA-6275-4503-85EE-BF046B17BAE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F1F7B49-E0DA-4971-8AFE-FA0553659ED0} = {7D164E39-AF2D-4869-9137-2C6EE9B4903A}
+		{2E527422-A27D-4E03-8C52-79CBC0F89464} = {88B78422-C205-413B-9369-BA5FB88F057A}
+		{4D399951-F71B-4842-A677-209614AEF0F2} = {7D164E39-AF2D-4869-9137-2C6EE9B4903A}
+		{54B359FD-A3D4-4D80-80D4-29702EA83CB0} = {B3A6676B-8F21-4A9E-BA07-BA57B8C52BB6}
+		{3A5E6880-A235-415F-90FF-272F2C25A043} = {B3A6676B-8F21-4A9E-BA07-BA57B8C52BB6}
+		{F6672793-91F6-497C-9F7E-ED273DC5FA68} = {8DE99FC5-23F2-43BD-B1EB-3B92915F36B2}
+		{50F9ACAA-6275-4503-85EE-BF046B17BAE7} = {799F63F2-5473-4DB1-9260-51E78D59A82A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D7BFF31-9756-45FA-94C3-6A73CE754663}
+	EndGlobalSection
+EndGlobal
